@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("http://www.cvhldgs.com/wp-content/uploads/2017/03/bg.jpg") ;
+}
+
+.grid > div{
+    background-color: #1DAFCA;
+    border: solid 1px #999;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.Cursus> div {
+    background-color: #1DAFCA;
+    border: solid 1px #999;
+}
+
+.Cursus {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.expé > div{
+    background-color: #1DAFCA;
+    border: solid 1px #999;
+}
+
+.expé{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.langue > div{
+    background-color: #1DAFCA;
+    border: solid 1px #999;
+}
+
+.langue{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.int > div{
+    background-color: #1DAFCA;
+    border: solid 1px #999;
+}
+
+.int{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
