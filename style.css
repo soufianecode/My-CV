@@ -1,12 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("http://www.cvhldgs.com/wp-content/uploads/2017/03/bg.jpg") ;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-color: #1e3d59;
+    text-align: center;
+    margin-bottom: 5em;
+    /*background-image: url("http://www.cvhldgs.com/wp-content/uploads/2017/03/bg.jpg") ;*/
+}
+h2{
+    color: blanchedalmond;
 }
 
 .grid > div{
-    background-color: #1DAFCA;
+    background-color: #f5f0e1;
     border: solid 1px #999;
+}
+
+.ma-photo{
+    width: 100px;
+    height: 238px;
 }
 
 .grid {
@@ -15,10 +28,12 @@ body{
     grid-template-rows: 3fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    
 }
 
+
 .Cursus> div {
-    background-color: #1DAFCA;
+    background-color: #f5f0e1;
     border: solid 1px #999;
 }
 
@@ -31,7 +46,7 @@ body{
 
 }
 .expé > div{
-    background-color: #1DAFCA;
+    background-color: #f5f0e1;
     border: solid 1px #999;
 }
 
@@ -44,7 +59,7 @@ body{
 }
 
 .langue > div{
-    background-color: #1DAFCA;
+    background-color: #f5f0e1;
     border: solid 1px #999;
 }
 
@@ -57,7 +72,7 @@ body{
 }
 
 .int > div{
-    background-color: #1DAFCA;
+    background-color: #f5f0e1;
     border: solid 1px #999;
 }
 
